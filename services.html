@@ -1,0 +1,299 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/all.css" rel="stylesheet"/>
+<script src="js/bootstrap.bundle.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+:root
+{
+--bgcolor:linear-gradient(45deg,#1f99fc,#05fda5);
+}
+.bg-mycolor
+{
+background:var(--bgcolor) !important;
+color:white;
+}
+.social .fa-brands
+{
+font-size:25px;
+border:1px solid white;
+padding:1%;
+transition:all ease 1s;
+}
+.social .fa-brands:hover
+{
+background:white;
+color:#0eddc2;
+transform:rotate(360deg);
+transition:all ease 1s;
+}
+.text-mycolor
+{
+color:#1e9df9;
+}
+#menu ul li:hover
+{
+background:var(--bgcolor);
+border-radius:5px;
+transition:all ease 2s;
+}
+.gallery
+{
+min-height:500px;
+}
+.contactus
+{
+min-height:500px;
+}
+.ufooter
+{
+min-height:500px;
+}
+.bfooter
+{
+min-height: 30px;
+text-align: center;
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+.card::after {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: 35px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    content: '';
+    z-index: -1;
+}
+a.card {
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.d-block {
+    display: block !important;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.card-text {
+    padding-top: 12px;
+    color: #8c8c8c;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}
+p, .p {
+    margin: 0 0 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+
+.head-icon{
+    margin-top:18px;
+    color:#FF4500
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row t bg-mycolor text-center py-2 fw-bold">
+<div class="col-sm-4"><i class="fa-solid fa-phone"></i> +91-8423702729 || +91-7006534227</div>
+<div class="col-sm-4">An ISO Certified Software Company</div>
+<div class="col-sm-4 social">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+</div>
+</div>
+<div class="row header sticky-top bg-light">
+<div class="col-sm-3 logo text-center fs-2 pt-2">
+<p>Active<b class="text-mycolor">Coder <i class="fa-solid fa-graduation-cap"></i></b></p>
+</div>
+<div class="col-sm-9 menu">
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg" id="menu">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="ActiveCoder.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pic.html">Image</a></li>
+			<li><hr class="dropdown-divider">
+            <li><a class="dropdown-item" href="video.html">Video</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="register.html">Register</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="signin.html">Login</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 mt-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn bg-mycolor tet-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- end nav bar -->
+</div>
+</div>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<section class="container pt-3 mb-3">
+    <h2 class="h3 block-title text-center">What we do<small>Whatever we do, we do with your end user in mind </small></h2>
+    <div class="row pt-5 mt-30">
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="#">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-user fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">App Devlopment</h3>
+                    <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="#">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-user-circle-o fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Web &amp; UI Design</h3>
+                    <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="#">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-address-book fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Summer Trainning</h3>
+                    <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="#">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-car fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Apprentiship Program</h3>
+                    <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="#">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-camera fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Fullstack Program</h3>
+                    <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" href="#">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-image fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title pt-1">Digital Marketing</h3>
+                    <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+

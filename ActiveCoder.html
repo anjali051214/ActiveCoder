@@ -1,0 +1,252 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/all.css" rel="stylesheet"/>
+<script src="js/bootstrap.bundle.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+:root
+{
+--bgcolor:linear-gradient(45deg,#1f99fc,#05fda5);
+}
+.bg-mycolor
+{
+background:var(--bgcolor) !important;
+color:white;
+}
+.social .fa-brands
+{
+font-size:25px;
+border:1px solid white;
+padding:1%;
+transition:all ease 1s;
+}
+.social .fa-brands:hover
+{
+background:white;
+color:#0eddc2;
+transform:rotate(360deg);
+transition:all ease 1s;
+}
+.text-mycolor
+{
+color:#1e9df9;
+}
+#menu ul li:hover
+{
+background:var(--bgcolor);
+border-radius:5px;
+transition:all ease 2s;
+}
+.gallery
+{
+min-height:500px;
+}
+.contactus
+{
+min-height:500px;
+}
+.ufooter
+{
+min-height:500px;
+}
+.bfooter
+{
+min-height: 30px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row t bg-mycolor text-center py-2 fw-bold">
+<div class="col-sm-4"><i class="fa-solid fa-phone"></i> +91-8423702729 || +91-7006534227</div>
+<div class="col-sm-4">An ISO Certified Software Company</div>
+<div class="col-sm-4 social">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+</div>
+</div>
+<div class="row header sticky-top bg-light">
+<div class="col-sm-3 logo text-center fs-2 pt-2">
+<p>Active<b class="text-mycolor">Coder <i class="fa-solid fa-graduation-cap"></i></b></p>
+</div>
+<div class="col-sm-9 menu">
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg" id="menu">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pic.html">Image</a></li>
+			<li><hr class="dropdown-divider">
+            <li><a class="dropdown-item" href="video.html">Video</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="register.html">Register</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="signin.html">Login</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 mt-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn bg-mycolor tet-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- end nav bar -->
+</div>
+</div>
+<div class="row slider">
+<!-- slider -->
+<div id="carouselExampleIndicators" class="carousel slide p-0 m-0" data-bd-ride="corousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/img.1.jpg"style="max-height:500px" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img.3.jpg" class="d-block w-100" alt="..." style="max-height:500px">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img.2.jpg"style="max-height:500px" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- end slider -->
+</div>
+<div class="row services">
+<div class="col-sm-10 mx-auto">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-12 p-2">
+<p class="bg-mycolor text-light p-4 rounded">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 p-2">
+<p class="bg-mycolor text-light p-4 rounded">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 p-2">
+<p class="bg-mycolor text-light p-4 rounded">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row about us bg-light p-5">
+<div class="h2 text-center">About <b class="text-dark">Us <i class="fa-solid fa-address-card"></i></b></div>
+<div class="col-sm-10 mx-auto" style="text-align:justify">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
+</div>
+<div class="row gallery bg-mycolor py-2">
+<div class="h2 text-center">Image <b class="text-dark">Gallery <i class="fa-solid fa-image"></i></b></div>
+<div class="col-sm-12">
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-12 p-3">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 p-3">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 p-3">
+<img src="images/Desert.jpg" class="img-fluid border border-5 p-2"/>
+</div>
+</div>
+</div>
+<div class="row contactus"></div>
+<div class="row ufooter bg-dark">
+<div class="container py-4">
+<div class="row">
+<div class="col-md-4">
+<h5 class="vr">&nbsp; Links</h5>
+<p><i class="bi bi-arrow-right-short"></i> Contact</p>
+<p><i class="bi bi-arrow-right-short"></i> Terms & Condition</p>
+<p><i class="bi bi-arrow-right-short"></i> Privecy Policy</p>
+<p><i class="bi bi-arrow-right-short"></i> E-Learning</p>
+<p><i class="bi bi-arrow-right-short"></i> F&Q section</p>
+<p><i class="bi bi-arrow-right-short"></i> &copy;Techpile Coder</p>
+</div>
+<div class="col-md-4">
+<div class="col-md-4">
+<h5 class="vr">&nbsp; Services</h5>
+<p><i class="bi bi-arrow-right-short"></i> App Devlopment</p>
+<p><i class="bi bi-arrow-right-short"></i> Web Devlopment</p>
+<p><i class="bi bi-arrow-right-short"></i> Summer Trainning</p>
+<p><i class="bi bi-arrow-right-short"></i> Winter Trainning</p>
+<p><i class="bi bi-arrow-right-short"></i> Apprentiship </p>
+<p><i class="bi bi-arrow-right-short"></i> FullStack Program</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-4">
+<h5 class="vr">&nbsp; Address</h5>
+<p><i class="bi bi-arrow-right-short"></i> X Road,Near HP petrol Pump</p>
+<p><i class="bi bi-arrow-right-short"></i> Lucknow UP, 247001</p>
+<p><i class="bi bi-arrow-right-short"></i> activecoder05@gamil.com</p>
+<p><i class="bi bi-arrow-right-short"></i> Telephone: 224524</p>
+<p><i class="bi bi-arrow-right-short"></i> +91-842-370-2729</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row bfooter">
+<p>@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+</div>
+</div>
+</body>
+</html>
